@@ -1,4 +1,4 @@
-module com.example.filsafe {
+module com.example.filesafe {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module com.example.filsafe {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.filsafe to javafx.fxml;
-    exports com.example.filsafe;
+    opens com.example.filesafe to javafx.fxml;
+    exports com.example.filesafe;
 }
